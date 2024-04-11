@@ -1,0 +1,112 @@
+.calendar-container {
+  display: inline-block; /* Display the container as an inline block */
+
+
+  border: 1px solid #ccc; /* Add a border for visual separation */
+ 
+}
+
+#root > div > div.calendar-container > div > div.MuiDialogActions-root.MuiDialogActions-spacing.MuiPickersLayout-actionBar.css-knqc4i-MuiDialogActions-root{
+  display: none !important;
+}
+body{
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins",sans-serif;
+}
+header .container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 12px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header{
+  background: #fff;
+}
+header a{
+  color: #333;
+  text-decoration: none;
+}
+.Home-container{
+  max-width: 1200px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+.homepage{
+  display: flex;
+ 
+}
+.space{
+  border: 1px solid rgb(219, 219, 219);
+  margin-left: 50px;
+  width: 1000px;
+  background: #fff;
+}
+.space h2{
+  margin: 25px;
+}
+.space input{
+  margin: 25px ;
+  line-height: 40px;
+  width: 90%;
+  padding: 10px;
+ 
+}
+
+.todo-card{
+  background: #d6d3d3;
+  padding: 15px;
+  width: 85%;
+  margin: 20px auto ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.material-symbols-outlined{
+  margin-left: 15px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.material-symbols-outlined:hover{
+  background: #818181;
+  color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a{
+  margin-left: 10px;
+}
+form.signup , form.login{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+form input{
+  display: block;
+  width: 80%;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+ button{
+  margin: 10px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  background: #a1e0a1;
+  border-radius: 10px;
+  color: white;
+
+}
+button:hover{
+  background: #12e812;
+  color: rgb(182, 157, 112);
+}
